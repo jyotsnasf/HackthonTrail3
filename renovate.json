@@ -8,12 +8,12 @@
   "labels":["dependencies-test-label"],
   "packageRules": [
     {
-      "mathcPackagePatterns": ["docker"],
+      "matchPackagePatterns": ["docker"],
       "labels": ["docker-test-label"]
     },
     
     {
-      "mathcPackagePatterns": ["maven"],
+      "matchPackagePatterns": ["maven"],
       "labels": ["maven-test-label"]
     }
   ]
