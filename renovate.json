@@ -1,0 +1,20 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "prHeader": "Renovate Test Header",
+  "assignees": ["majid-khosravi"],
+  "labels":["dependencies-test-label"],
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["docker"],
+      "labels": ["docker-test-label"]
+    },
+    
+    {
+      "matchPackagePatterns": ["maven"],
+      "labels": ["maven-test-label"]
+    }
+  ]
+}
