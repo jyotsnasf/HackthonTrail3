@@ -2,5 +2,23 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+   "prHourlyLimit": 3
+}
+
+{
+  "extends": [
+    "config:base"
+  ],
+  "prConcurrentLimit": 1,
+  "prHourlyLimit": 1,
+  "packageRules": [
+    {
+      "updateTypes": [
+        "minor",
+        "patch"
+      ],
+      "enabled": true
+    }
   ]
 }
