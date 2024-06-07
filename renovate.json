@@ -3,13 +3,7 @@
   "extends": [
     "config:recommended"
   ],
-   "prHourlyLimit": 3
-}
-
-{
-  "extends": [
-    "config:base"
-  ],
+  "prHourlyLimit": 3,
   "prConcurrentLimit": 1,
   "prHourlyLimit": 1,
   "packageRules": [
